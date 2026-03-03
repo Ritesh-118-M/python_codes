@@ -5,7 +5,7 @@ print(title.center(68, "="))
 
 prize_money_list=[0,10000,50000,100000,2000000,5000000,10000000,70000000]
 def correct_answer(i):
-    x=print("That's the right answer!!✅🥳🙌")
+    x=print("That's the right answer!!")
     points=prize_money_list[i]
     print("Your prize money right now:", points)
     if points==70000000:
@@ -123,7 +123,7 @@ if choice==1:
         if ans.lower()==Ques_ans_dict_math[present_ques]:
             correct_answer(i+1)
         else:
-            print("\nOops! Its the wrong answer❌😔")
+            print("\nOops! Its the wrong answer")
             print("Your prize money = ", prize_money_list[i],"\n\tThe Game Ends")
             break
 elif choice==2:
@@ -140,7 +140,7 @@ elif choice==2:
         if ans.lower()==Ques_ans_dict_sci[present_ques]:
             correct_answer(i+1)
         else:
-            print("\nOops! Its the wrong answer❌😔")
+            print("\nOops! Its the wrong answer")
             print("Your prize money = ", prize_money_list[i],"\n\tThe Game Ends")
             break
 
